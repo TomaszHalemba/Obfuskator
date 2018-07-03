@@ -1,0 +1,64 @@
+﻿ <html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+<script language="javascript">
+function spr()
+{
+var ywqIvx=document.getElementById('im');
+var JxCditqhqqr=document.getElementById('na');
+var bEKcZhtYuv=document.getElementById('mi');
+var XezP=document.getElementById('ko');
+var ujmzfTUzAGD=/^[0-9]{2}-[0-9]{3}$/;
+if(ujmzfTUzAGD.test(XezP.value))
+{
+alert('dobry');}
+else {alert('zly');} 
+var ujmzfTUzAGD=/^[0-9]{2}-[0-9]{3}$/;
+if(ujmzfTUzAGD.test(XezP.value))
+{
+alert('dobry');}
+else {alert('zly');} 
+
+alert(ywqIvx.value+'\n'+JxCditqhqqr.value+'\n'+bEKcZhtYuv.value+'\n'+XezP.value);
+};
+
+              
+                     
+
+
+</script>
+<table>
+
+<tr>
+<td>Imię</td>
+<td><input type="text" id="im"></td>
+</tr>
+
+<tr>
+<td>Nazwisko</td>
+<td><input type="text" id="na"></td>
+</tr>
+
+<tr>
+<td>Miejscowosc</td>
+<td><input type="text" id="mi"></tr>
+</tr>
+
+<tr>
+<td>Kod pocztowy</td>
+<td><input type="text" id="ko" pattern="^[0-9]{2}-[0-9]{3}$" ></td>
+</tr>
+<tr>
+<td>E-mail</td>
+<td><input type="text" id="em" pattern="^[a-z,0-9]{1,20}@[a-z,0-9]{1,20}\.[a-z,0-9]{1,20}$" ></td>
+</tr>
+</table>
+<input type="submit" onClick="spr()" value="sa" >
+</body>
+
+</html>
